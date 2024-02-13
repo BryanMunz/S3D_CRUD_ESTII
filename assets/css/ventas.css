@@ -1,0 +1,129 @@
+.select-container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  min-width: 250px;
+  height: 50px;
+  list-style: none;
+  margin: 0; /* Elimina el margen */
+}
+
+.select-box {
+  height: 50px;
+  border: none;
+  appearance: none;
+  outline: none;
+  padding: 0 30px 0 15px;
+  top: 70px;
+  width: 100%;
+  border-radius: 6px;
+  color: #787474;
+  background-color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.select-container ul {
+  position: absolute;
+  background-color: white;
+  top: 38px; /* Cambia 'margin-top' a 'top' */
+  margin-left: 30px; /* Cambia 'margin-left' a 'left' */
+  width: 220px;
+  color: #787474;
+  box-shadow: 1px 4px 4px rgba(0, 0, 0, 0.2) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-bottom: 2px solid #1E49A8;
+  border-radius: 4px;
+  border: 1px solid #c8c4c4;
+  cursor: pointer;
+  list-style: none; /* Agrega esta línea para eliminar los puntos */
+  padding: 0; /* Agrega esta línea para eliminar el espacio interno */
+  margin: 0; /* Agrega esta línea para eliminar el margen */
+}
+
+.select-container ul li {
+  padding-left: 15px;
+  height: 33px;
+  transition: 0.1s;
+  list-style: none;
+}
+
+.select-container ul li:hover {
+  background: #1E49A8;
+  color: #fff;
+  border-radius: 3px;
+  list-style: none;
+}
+
+
+div.wrapper select.select-box option:hover {
+  background-color: blueviolet; /* Cambia el color de fondo al pasar sobre las opciones */
+}
+
+.with-white-border {
+    border: 2px solid white; /* Define el borde blanco con 2px de grosor */
+    border: 1.9px solid lightgray;
+    border-radius: 4px; /* Establece el radio del borde para hacerlo redondeado */
+    color: white; /* Cambia el color del texto a blanco */
+    background-color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.5);
+    height: 40px;
+  }
+  
+  #sucursal1 {
+    height: 29px;
+  }
+  
+  /* Scroll Personalizado */
+  
+  .sidebar-wrapper::-webkit-scrollbar {
+    width: 13px;
+  }
+  
+  .sidebar-wrapper::-webkit-scrollbar-thumb {
+    background: #c8c4c4;
+    border-radius: 8px;
+    border: 3px solid  #284ca4; /* Hacer el borde transparente */
+    transition: background-color 0.3s, width 0.3s;
+  }
+  
+  .sidebar-wrapper::-webkit-scrollbar-thumb:hover {
+    background: #a8a4a4;
+    width: 12px;
+    margin: 5px;
+  }
+  
+  .sidebar-wrapper::-webkit-scrollbar-track {
+    margin: 3px; /* Ajusta el margen para separar el scrollbar del borde */
+  }
+
+
+  /* Scroll Personalizado */
+
+  body::-webkit-scrollbar {
+    width: 15px;
+    transition: width 0.5s; /* Agregar una transición para que el cambio sea gradual */
+  }
+
+  body::-webkit-scrollbar-track {
+    width: 15px;
+    border-radius: 15px;
+    margin-block: 2px;  
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #a8a4a4;
+    border-radius: 10px;
+    border: 2px solid transparent; /* Hacer el borde transparente */
+    box-shadow: 0 0 0 5px transparent; /* Hacer el área exterior del scrollbar transparente */
+    transition: background-color 0.5s, width 0.3s;
+  }
+  
+
+  body::-webkit-scrollbar-thumb:hover {
+    background: #787474;
+    width: 15px; /* Cambia el color al pasar el cursor sobre el scrollbar */
+    margin-block: 5px;  
+  }
+  

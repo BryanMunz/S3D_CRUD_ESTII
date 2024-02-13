@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "scrollbar": "^0.1.12",
+    "smooth": "^0.1.1-alpha.61"
+  }
+}
